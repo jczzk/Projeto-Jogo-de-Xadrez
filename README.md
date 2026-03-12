@@ -1,24 +1,40 @@
-# Movimentando as Peças do xadrez: Nivel Iniciante!
+# Nível Novato
 
+A equipe de testes da MateCheck recebeu uma solicitação para determinar os limites de utilização do código dentro do jogo. Para isso, a equipe de programação solicitou o envio de blocos de código contendo loops (estruturas de repetição) para avaliação de desempenho e possibilidades de aplicação.
 
-Este projeto de nivel iniciante focado na movimentação das peças de xadrez usando estruturas de repetição em C. 
-Este é um programa em C que simule o movimento de três peças: Torre, Bispo e Rainha. Para cada peça, utilizei uma estrutura de repetição diferente entre (for, while ou do-while) para simular os movimentos.
-O programa foi empresso no console à direção do movimento a cada casa percorrida pela peça.
+Movimentação das Peças:
 
- 
-Torre: Move-se em linha reta horizontalmente ou verticalmente. Seu programa deverá simular o movimento da Torre cinco casas para a direita.
- 
-Bispo: Move-se na diagonal. Seu programa deverá simular o movimento do Bispo cinco casas na diagonal para cima e à direita. Para representar a diagonal, você imprimirá a combinação de duas direções a cada casa (ex: "Cima, Direita").
- 
-Rainha: Move-se em todas as direções. Seu programa deverá simular o movimento da Rainha oito casas para a esquerda.
+Bispo: 5 casas na diagonal superior direita
+Torre: 5 casas para a direita
+Rainha: 8 casas para a esquerda
+No jogo, apenas possuímos movimentação para quatro direções, mas o Bispo se mexe na diagonal. Com isso, foi adicionada uma condição para movimentação dessa peça, em que, para movê-lo, utilizamos o comando printf e, em seu valor, colocamos a direção usando a combinação de direções básicas.
 
+Requisitos Funcionais:
 
-Requisitos funcionais adotados:
+Entrada de Dados:
+Os valores necessários devem ser inseridos manualmente a partir de variáveis dentro do código.
+Será permitido o uso de constantes para facilitar a escrita do código e evitar repetição de valores.
+Estruturas de Repetição:
+Os códigos precisam ser desenvolvidos utilizando estruturas de repetição.
+Saída de Dados:
+O sistema deve exibir os resultados de cada procedimento de forma clara e legível.
+Requisitos Não Funcionais:
 
-Entrada de Dados: Os valores para o número de casas a serem movidas foram definidos diretamente no código através de variáveis e constantes.
- 
-Lógica de Movimentação: Cada programa foi implementado à lógica de movimento específica de cada peça (Torre, Bispo, Rainha).
- 
-Saída de Dados: O programa foi empresso no console à direção do movimento a cada casa percorrida pela peça. 
-Para movimentos na diagonal (Bispo), foi empresso a combinação de duas direções. Utilizando o comando printf para exibir as informações. 
-As saídas foram seguidas ao padrão: printf("Cima\n");, printf("Baixo\n");, printf("Esquerda\n");, printf("Direita\n");, printf("Cima Esquerda\n"); printf("Direita\n").
+Performance:
+O sistema deve executar os cálculos e apresentar os resultados sem atrasos perceptíveis.
+Documentação:
+O código deve ser bem documentado, incluindo comentários detalhados sobre a função de cada parte do código.
+Manutenibilidade:
+O código deve ser escrito de forma clara, empregando nomes de variáveis que permitam o fácil entendimento.
+Instruções Detalhadas:
+
+Entrada de Dados:
+Inclua a biblioteca padrão de entrada e saída no início do seu programa.
+Declare variáveis constantes para definir os valores a serem comparados dentro das estruturas condicionais.
+Estruturas de Repetição:
+Utilize cada uma das diferentes estruturas de repetição apresentadas.
+Saída:
+As saídas deverão ser mostradas de forma clara e organizada, com a direção da peça.
+Nomenclatura:
+
+printf("Cima\n"); printf("Baixo\n"); printf("Esquerda\n"); printf("Direita\n");
