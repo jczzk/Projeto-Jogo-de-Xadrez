@@ -1,7 +1,7 @@
-# Movimentando as Peças do xadrez: Nivel Iniciante 1
+# Movimentando as Peças do xadrez: Nivel Iniciante!
 
 
-Este projeto de nivel iniciante (1) foca na movimentação das peças de xadrez usando estruturas de repetição em C. 
+Este projeto de nivel iniciante focado na movimentação das peças de xadrez usando estruturas de repetição em C. 
 Este é um programa em C que simule o movimento de três peças: Torre, Bispo e Rainha. Para cada peça, utilizei uma estrutura de repetição diferente entre (for, while ou do-while) para simular os movimentos.
 O programa foi empresso no console à direção do movimento a cada casa percorrida pela peça.
 
