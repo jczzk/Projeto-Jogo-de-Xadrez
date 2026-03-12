@@ -21,4 +21,4 @@ Lógica de Movimentação: Cada programa foi implementado à lógica de moviment
  
 Saída de Dados: O programa foi empresso no console à direção do movimento a cada casa percorrida pela peça. 
 Para movimentos na diagonal (Bispo), foi empresso a combinação de duas direções. Utilizando o comando printf para exibir as informações. 
-As saídas foram seguidas ao padrão: printf("Cima\n");, printf("Baixo\n");, printf("Esquerda\n");, printf("Direita\n");, printf("Cima Esquerda\n"); printf("Direita\n");
+As saídas foram seguidas ao padrão: printf("Cima\n");, printf("Baixo\n");, printf("Esquerda\n");, printf("Direita\n");, printf("Cima Esquerda\n"); printf("Direita\n").
